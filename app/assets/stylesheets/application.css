@@ -1,0 +1,75 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(206, 246, 233);
+}
+th, td{
+    padding:  25px 50px;
+}
+#user_name{
+    padding: 4px ;
+    margin-left: 1rem;
+}
+#user_age{
+    padding: 4px ;
+    margin-left: 1rem;
+}
+.label{
+    font-size: 20px;
+}
+#user_gender_male, #user_gender_female, #user_gender_others{
+    height: 1.2em;
+    width: 1.2em;
+}
+input[type="submit"]{
+    padding: 12px 25px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    border-radius: 10px;
+}
+.radio-container{
+  display: grid;
+  width: 900px;
+  grid-template-columns: 70px 30px 70px 30px 83px 30px auto;
+  font-size: larger;
+}
+/* h1{
+    padding:1rem;
+    text-align: center;
+    background-color: rgb(206, 246, 233);
+    font-size: 40px;
+    width: 15rem;
+} */
+button{
+    padding: 13px 30px;
+    font-size: 20px;
+    background-color: rgb(206, 246, 233);
+    border-radius: 20px;
+    border-radius: none;
+}
+fieldset{
+  width: 2rem;
+  background-color: rgb(206, 246, 233);
+  margin: 10rem 20rem;
+  padding: 3rem;
+}
+.red_message{
+    color: red;
+}
